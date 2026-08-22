@@ -30,3 +30,6 @@ py-modules = ["yamlcheck"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[project.urls]
+Repository = "https://github.com/ethancarter-ai/yamlcheck"

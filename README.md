@@ -58,6 +58,8 @@ Rules:
 - `items` is validated only when `type: list`.
 - `required: false` makes a property optional. Unlisted keys are forbidden by default.
 
+- Repository: https://github.com/ethancarter-ai/yamlcheck
+
 ## Project structure
 
 ```
