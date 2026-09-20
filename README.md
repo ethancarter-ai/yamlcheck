@@ -73,3 +73,7 @@ yamlcheck/
 ## Tags / keywords
 
 yaml, validation, schema, cli, config, pyyaml, quality-gate
+
+## License
+
+Licensed under the MIT License. See [LICENSE](LICENSE) for details.

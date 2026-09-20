@@ -9,7 +9,7 @@ description = "Validate YAML files for type, structure, and schema constraints"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 readme = "README.md"
-keywords = ["yaml", "validation", "schema", "cli"]
+keywords = ["yaml", "validation", "schema", "cli", "config", "pyyaml", "quality-gate"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Developers",
@@ -18,18 +18,25 @@ classifiers = [
   "Topic :: Software Development :: Quality Assurance",
 ]
 dependencies = ["PyYAML>=6.0"]
+authors = [
+  { name = "Ethan Carter", email = "291844740+ethancarter-ai@users.noreply.github.com" },
+]
 
 [project.scripts]
 yamlcheck = "yamlcheck:main"
 
 [project.optional-dependencies]
-dev = ["pytest>=7"]
+dev = ["pytest>=7", "ruff>=0.6"]
 
 [tool.setuptools]
 py-modules = ["yamlcheck"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
 
 [project.urls]
 Repository = "https://github.com/ethancarter-ai/yamlcheck"
