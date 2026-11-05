@@ -63,16 +63,18 @@ Rules:
 ## Project structure
 
 ```
-yamlcheck/
-  yamlcheck.py
-  README.md
-  pyproject.toml
-  tests/test_yamlcheck.py
+.github/workflows/tests.yml
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+tests/test_yamlcheck.py
+yamlcheck.py
 ```
 
 ## Tags / keywords
 
-yaml, validation, schema, cli, config, pyyaml, quality-gate
+yaml, validation, schema, cli, config, pyyaml, quality-gate, developer-tools, python
 
 ## License
 
